@@ -1,0 +1,93 @@
+[16:50:40 INF] [] () Starting web host 
+[16:50:40 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[16:50:40 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[16:50:40 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "Development" 
+[16:50:40 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest" 
+[16:50:40 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[17:02:39 INF] [] () Starting web host 
+[17:02:39 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[17:02:39 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[17:02:39 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "Development" 
+[17:02:39 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest" 
+[17:02:39 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[17:02:43 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] () An 'IServiceProvider' was created for internal use by Entity Framework. 
+[17:02:43 DBG] [] () Test 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Model] () The index "{'UserId'}" was not created on entity type '"IdentityUserRole<string>"' as the properties are already covered by the index "{'UserId', 'RoleId'}". 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Model] () The index "{'UserId'}" was not created on entity type '"IdentityUserToken<string>"' as the properties are already covered by the index "{'UserId', 'LoginProvider', 'Name'}". 
+[17:02:44 INF] [Microsoft.EntityFrameworkCore.Infrastructure] () Entity Framework Core "3.1.5" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Query] () "queryContext => new QueryingEnumerable<long>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, long>, 
+    WebApiTest.DataAccess.Contexts.AppDbContext, 
+    DiagnosticsLogger<Query>
+)" 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () Creating DbCommand for '"ExecuteReader"'. 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () Created DbCommand for '"ExecuteReader"' (79ms). 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Opening connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Opened connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id]
+FROM [Posts] AS [p]" 
+[17:02:44 INF] [Microsoft.EntityFrameworkCore.Database.Command] () Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id]
+FROM [Posts] AS [p]" 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () A data reader was disposed. 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Closing connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Closed connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:02:44 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] () '"AppDbContext"' disposed. 
+[17:03:17 DBG] [] () Test 
+[17:03:17 INF] [Microsoft.EntityFrameworkCore.Infrastructure] () Entity Framework Core "3.1.5" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" 
+[17:03:17 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () Creating DbCommand for '"ExecuteReader"'. 
+[17:03:17 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () Created DbCommand for '"ExecuteReader"' (0ms). 
+[17:03:17 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Opening connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:03:17 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Opened connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:03:17 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id]
+FROM [Posts] AS [p]" 
+[17:03:17 INF] [Microsoft.EntityFrameworkCore.Database.Command] () Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id]
+FROM [Posts] AS [p]" 
+[17:03:17 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () A data reader was disposed. 
+[17:03:17 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Closing connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:03:17 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Closed connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:03:17 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] () '"AppDbContext"' disposed. 
+[17:03:25 INF] [Microsoft.Hosting.Lifetime] () Application is shutting down... 
+[17:03:25 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting stopping 
+[17:03:25 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting stopped 
+[17:03:45 INF] [] () Starting web host 
+[17:03:45 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[17:03:45 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[17:03:45 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "Development" 
+[17:03:45 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest" 
+[17:03:45 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[17:03:49 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] () An 'IServiceProvider' was created for internal use by Entity Framework. 
+[17:03:49 DBG] [] () Test 
+[17:03:49 DBG] [Microsoft.EntityFrameworkCore.Model] () The index "{'UserId'}" was not created on entity type '"IdentityUserRole<string>"' as the properties are already covered by the index "{'UserId', 'RoleId'}". 
+[17:03:49 DBG] [Microsoft.EntityFrameworkCore.Model] () The index "{'UserId'}" was not created on entity type '"IdentityUserToken<string>"' as the properties are already covered by the index "{'UserId', 'LoginProvider', 'Name'}". 
+[17:03:49 INF] [Microsoft.EntityFrameworkCore.Infrastructure] () Entity Framework Core "3.1.5" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" 
+[17:03:50 DBG] [Microsoft.EntityFrameworkCore.Query] () "queryContext => new QueryingEnumerable<long>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, long>, 
+    WebApiTest.DataAccess.Contexts.AppDbContext, 
+    DiagnosticsLogger<Query>
+)" 
+[17:03:50 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () Creating DbCommand for '"ExecuteReader"'. 
+[17:03:50 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () Created DbCommand for '"ExecuteReader"' (104ms). 
+[17:03:50 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Opening connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:03:50 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Opened connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:03:50 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id]
+FROM [Posts] AS [p]" 
+[17:03:50 INF] [Microsoft.EntityFrameworkCore.Database.Command] () Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id]
+FROM [Posts] AS [p]" 
+[17:03:50 DBG] [Microsoft.EntityFrameworkCore.Database.Command] () A data reader was disposed. 
+[17:03:50 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Closing connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:03:50 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] () Closed connection to database '"AppDb"' on server '".\sqlexpress"'. 
+[17:03:50 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] () '"AppDbContext"' disposed. 

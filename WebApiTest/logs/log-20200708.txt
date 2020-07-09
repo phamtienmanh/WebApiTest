@@ -1,0 +1,46 @@
+2020-07-08 16:46:08.884 +07:00 [Information] Starting web host
+2020-07-08 16:46:09.107 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-07-08 16:46:09.108 +07:00 [Information] Hosting environment: "Development"
+2020-07-08 16:46:09.109 +07:00 [Information] Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest"
+2020-07-08 16:46:09.123 +07:00 [Information] Request starting HTTP/2.0 GET https://localhost:44384/swagger/index.html  
+2020-07-08 16:46:09.178 +07:00 [Information] Request finished in 59.274ms 200 text/html;charset=utf-8
+2020-07-08 16:46:09.834 +07:00 [Information] Request starting HTTP/2.0 GET https://localhost:44384/swagger/v1/swagger.json  
+2020-07-08 16:46:09.910 +07:00 [Information] Request finished in 76.3784ms 200 application/json;charset=utf-8
+2020-07-08 16:47:53.553 +07:00 [Information] Starting web host
+2020-07-08 16:47:53.773 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-07-08 16:47:53.775 +07:00 [Information] Hosting environment: "Development"
+2020-07-08 16:47:53.776 +07:00 [Information] Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest"
+2020-07-08 16:47:53.783 +07:00 [Information] Request starting HTTP/2.0 GET https://localhost:44384/swagger/index.html  
+2020-07-08 16:47:53.831 +07:00 [Information] Request finished in 50.2486ms 200 text/html;charset=utf-8
+2020-07-08 16:47:54.349 +07:00 [Information] Request starting HTTP/2.0 GET https://localhost:44384/swagger/v1/swagger.json  
+2020-07-08 16:47:54.430 +07:00 [Information] Request finished in 81.8967ms 200 application/json;charset=utf-8
+2020-07-08 16:47:57.700 +07:00 [Information] Request starting HTTP/2.0 GET https://localhost:44384/api/Post  
+2020-07-08 16:47:57.728 +07:00 [Information] Executing endpoint '"WebApiTest.Controllers.PostController.Get (WebApiTest)"'
+2020-07-08 16:47:57.747 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Post\"}". Executing controller action with signature "Int64[] Get()" on controller "WebApiTest.Controllers.PostController" ("WebApiTest").
+2020-07-08 16:47:58.236 +07:00 [Information] Entity Framework Core "3.1.5" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2020-07-08 16:47:58.777 +07:00 [Information] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id]
+FROM [Posts] AS [p]"
+2020-07-08 16:47:58.795 +07:00 [Information] Executing ObjectResult, writing value of type '"System.Int64[]"'.
+2020-07-08 16:47:58.801 +07:00 [Information] Executed action "WebApiTest.Controllers.PostController.Get (WebApiTest)" in 1050.5583ms
+2020-07-08 16:47:58.801 +07:00 [Information] Executed endpoint '"WebApiTest.Controllers.PostController.Get (WebApiTest)"'
+2020-07-08 16:47:58.804 +07:00 [Information] Request finished in 1104.2139ms 200 application/json; charset=utf-8
+2020-07-08 16:49:20.823 +07:00 [Information] Starting web host
+2020-07-08 16:49:21.036 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-07-08 16:49:21.038 +07:00 [Information] Hosting environment: "Development"
+2020-07-08 16:49:21.039 +07:00 [Information] Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest"
+2020-07-08 16:49:21.047 +07:00 [Information] Request starting HTTP/2.0 GET https://localhost:44384/swagger/index.html  
+2020-07-08 16:49:21.097 +07:00 [Information] Request finished in 51.751ms 200 text/html;charset=utf-8
+2020-07-08 16:49:21.630 +07:00 [Information] Request starting HTTP/2.0 GET https://localhost:44384/swagger/v1/swagger.json  
+2020-07-08 16:49:21.706 +07:00 [Information] Request finished in 76.9956ms 200 application/json;charset=utf-8
+2020-07-08 16:49:25.083 +07:00 [Information] Request starting HTTP/2.0 GET https://localhost:44384/api/Post  
+2020-07-08 16:49:25.107 +07:00 [Information] Executing endpoint '"WebApiTest.Controllers.PostController.Get (WebApiTest)"'
+2020-07-08 16:49:25.137 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Post\"}". Executing controller action with signature "Int64[] Get()" on controller "WebApiTest.Controllers.PostController" ("WebApiTest").
+2020-07-08 16:49:25.613 +07:00 [Information] Entity Framework Core "3.1.5" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2020-07-08 16:49:26.016 +07:00 [Information] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id]
+FROM [Posts] AS [p]"
+2020-07-08 16:49:26.038 +07:00 [Information] Executing ObjectResult, writing value of type '"System.Int64[]"'.
+2020-07-08 16:49:26.045 +07:00 [Information] Executed action "WebApiTest.Controllers.PostController.Get (WebApiTest)" in 903.2467ms
+2020-07-08 16:49:26.046 +07:00 [Information] Executed endpoint '"WebApiTest.Controllers.PostController.Get (WebApiTest)"'
+2020-07-08 16:49:26.048 +07:00 [Information] Request finished in 965.3018ms 200 application/json; charset=utf-8
