@@ -1,0 +1,1095 @@
+[07:53:04 INF] [] () Starting web host 
+[07:53:08 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[07:53:08 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () FunctionResultAggregatorOptions
+{
+  "BatchSize": 1000,
+  "FlushTimeout": "00:00:30",
+  "IsEnabled": true
+} 
+[07:53:08 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () QueuesOptions
+{
+  "BatchSize": 16,
+  "NewBatchThreshold": 64,
+  "MaxPollingInterval": "00:00:02",
+  "MaxDequeueCount": 5,
+  "VisibilityTimeout": "00:01:00"
+} 
+[07:53:08 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () SingletonOptions
+{
+  "LockPeriod": "00:00:15",
+  "ListenerLockPeriod": "00:00:15",
+  "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+  "LockAcquisitionPollingInterval": "00:00:05",
+  "ListenerLockRecoveryPollingInterval": "00:01:00"
+} 
+[07:53:08 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () BlobsOptions
+{
+  "CentralizedPoisonQueue": false
+} 
+[07:53:08 INF] [Microsoft.Azure.WebJobs.Hosting.JobHostService] () Starting JobHost 
+[07:53:08 WRN] [Host.Startup] () No job functions found. Try making your job classes and methods public. If you're using binding extensions (e.g. Azure Storage, ServiceBus, Timers, etc.) make sure you've called the registration method for the extension(s) in your startup code (e.g. builder.AddAzureStorage(), builder.AddServiceBus(), builder.AddTimers(), etc.). 
+[07:53:08 INF] [Host.Startup] () Job host started 
+[07:53:08 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[07:53:08 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "development" 
+[07:53:08 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest" 
+[07:53:08 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[07:53:09 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/index.html" responded 200 in 117.3908 ms 
+[07:53:09 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 105.3749 ms 
+[07:56:32 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "POST" "/api/message" responded 200 in 594.2896 ms 
+[08:18:53 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "POST" "/api/message" responded 200 in 275.5127 ms 
+[08:47:03 INF] [] () Starting web host 
+[08:47:06 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[08:47:07 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () FunctionResultAggregatorOptions
+{
+  "BatchSize": 1000,
+  "FlushTimeout": "00:00:30",
+  "IsEnabled": true
+} 
+[08:47:07 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () QueuesOptions
+{
+  "BatchSize": 16,
+  "NewBatchThreshold": 64,
+  "MaxPollingInterval": "00:00:02",
+  "MaxDequeueCount": 5,
+  "VisibilityTimeout": "00:01:00"
+} 
+[08:47:07 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () SingletonOptions
+{
+  "LockPeriod": "00:00:15",
+  "ListenerLockPeriod": "00:00:15",
+  "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+  "LockAcquisitionPollingInterval": "00:00:05",
+  "ListenerLockRecoveryPollingInterval": "00:01:00"
+} 
+[08:47:07 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () BlobsOptions
+{
+  "CentralizedPoisonQueue": false
+} 
+[08:47:07 INF] [Microsoft.Azure.WebJobs.Hosting.JobHostService] () Starting JobHost 
+[08:47:07 WRN] [Host.Startup] () No job functions found. Try making your job classes and methods public. If you're using binding extensions (e.g. Azure Storage, ServiceBus, Timers, etc.) make sure you've called the registration method for the extension(s) in your startup code (e.g. builder.AddAzureStorage(), builder.AddServiceBus(), builder.AddTimers(), etc.). 
+[08:47:07 INF] [Host.Startup] () Job host started 
+[08:47:07 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[08:47:07 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "development" 
+[08:47:07 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest" 
+[08:47:07 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[08:47:07 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/index.html" responded 200 in 82.8438 ms 
+[08:47:08 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 123.4886 ms 
+[08:47:31 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "POST" "/api/message" responded 200 in 579.1463 ms 
+[08:48:48 INF] [] () Starting web host 
+[08:48:50 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[08:48:51 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () FunctionResultAggregatorOptions
+{
+  "BatchSize": 1000,
+  "FlushTimeout": "00:00:30",
+  "IsEnabled": true
+} 
+[08:48:51 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () QueuesOptions
+{
+  "BatchSize": 16,
+  "NewBatchThreshold": 64,
+  "MaxPollingInterval": "00:00:02",
+  "MaxDequeueCount": 5,
+  "VisibilityTimeout": "00:01:00"
+} 
+[08:48:51 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () SingletonOptions
+{
+  "LockPeriod": "00:00:15",
+  "ListenerLockPeriod": "00:00:15",
+  "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+  "LockAcquisitionPollingInterval": "00:00:05",
+  "ListenerLockRecoveryPollingInterval": "00:01:00"
+} 
+[08:48:51 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () BlobsOptions
+{
+  "CentralizedPoisonQueue": false
+} 
+[08:48:51 INF] [Microsoft.Azure.WebJobs.Hosting.JobHostService] () Starting JobHost 
+[08:48:51 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/index.html" responded 200 in 185.7356 ms 
+[08:48:51 INF] [Host.Startup] () Found the following functions:
+WebApiTest.Functions.ProcessQueueMessage
+ 
+[08:48:51 INF] [Host.Startup] () Job host started 
+[08:48:51 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[08:48:51 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "development" 
+[08:48:51 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest" 
+[08:48:51 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[08:48:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8c68727a-038c-40fa-b9b3-a3487e9be00c"' found 0 messages in 142 ms. 
+[08:48:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 100 ms before polling queue '"webapitest"'. 
+[08:48:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"023a7501-286c-47a7-af17-6206d379b246"' found 0 messages in 43 ms. 
+[08:48:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 215.035 ms before polling queue '"webapitest"'. 
+[08:48:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2d1610b9-999d-4e4c-8a2a-87b5e180059f"' found 0 messages in 52 ms. 
+[08:48:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 329.2325 ms before polling queue '"webapitest"'. 
+[08:48:52 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 138.6481 ms 
+[08:48:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"49dd858d-a08f-4fe6-82cf-72b8b7be70c3"' found 0 messages in 49 ms. 
+[08:48:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 574.4683 ms before polling queue '"webapitest"'. 
+[08:48:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4e5fa634-83f1-47fa-a8a5-0bb3e8b3d3e6"' found 0 messages in 44 ms. 
+[08:48:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 775.5629 ms before polling queue '"webapitest"'. 
+[08:48:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"0ccf439f-bdca-4685-914a-77dc8a7b458f"' found 0 messages in 44 ms. 
+[08:48:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:48:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"bb7c9522-2746-4b34-9430-fec1a64c1c10"' found 0 messages in 39 ms. 
+[08:48:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:48:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"fa5b4f6c-eb99-4125-a337-a6c90523f458"' found 0 messages in 132 ms. 
+[08:48:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"55356d7a-3f3a-47c4-a7cd-0839769d90dd"' found 0 messages in 54 ms. 
+[08:49:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"0722c49f-c87e-42c6-9fdc-f27aa5b0df01"' found 0 messages in 38 ms. 
+[08:49:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"eca5292e-c339-4fe1-b1fc-174f6fba71d1"' found 0 messages in 70 ms. 
+[08:49:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a872634f-f350-4a5f-972a-8fe0058dde65"' found 0 messages in 38 ms. 
+[08:49:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:09 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"aee5cca8-a043-44f2-929c-5f826acf9c81"' found 0 messages in 59 ms. 
+[08:49:09 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"08a10c7b-a1a3-4366-bd79-07e3438aabb5"' found 0 messages in 73 ms. 
+[08:49:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"84ecb3a2-6d3b-469a-81fd-481226aab175"' found 0 messages in 71 ms. 
+[08:49:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"959299ab-aa31-4ade-8303-4a64834a107b"' found 0 messages in 38 ms. 
+[08:49:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"59cba4e8-e0e3-4c5f-a803-31ead0549cfb"' found 0 messages in 71 ms. 
+[08:49:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9629cccc-7760-4265-bfc0-5d3a81554d58"' found 0 messages in 77 ms. 
+[08:49:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"400349ba-c5f3-42d3-a402-395a66ceec98"' found 0 messages in 102 ms. 
+[08:49:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d1767610-48cf-42c2-8b5f-27f5eb41859a"' found 0 messages in 88 ms. 
+[08:49:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"233cdba3-381e-4715-8f1e-b80c05a90033"' found 0 messages in 87 ms. 
+[08:49:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5d3c669e-47f7-45cd-b2d1-a07dd22d77a5"' found 0 messages in 95 ms. 
+[08:49:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"0ccf03d9-db15-4d58-bb47-91f9d1b239ea"' found 0 messages in 69 ms. 
+[08:49:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2de95217-ce47-4ba2-a242-1a7abb903d97"' found 0 messages in 104 ms. 
+[08:49:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"274ebaab-7bf7-4f36-b7bf-858d8fad3e5d"' found 0 messages in 64 ms. 
+[08:49:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6fd47b84-3802-444e-9775-0487c84c37cb"' found 0 messages in 35 ms. 
+[08:49:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ce37d808-3ccd-4295-9bb4-d0de7862a516"' found 0 messages in 66 ms. 
+[08:49:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:40 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"bf7eb636-6ce1-4cbd-8308-4f8b82941f7b"' found 0 messages in 100 ms. 
+[08:49:40 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2122e788-2ab9-4e13-b786-face21022d6b"' found 0 messages in 81 ms. 
+[08:49:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2abf74db-a034-4c21-9a0b-a9890e532a2c"' found 0 messages in 53 ms. 
+[08:49:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f650256d-d5f0-4eac-8ad1-95f31a18f7f6"' found 0 messages in 108 ms. 
+[08:49:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"09efde39-4539-46b8-9b11-d6bd719ba434"' found 0 messages in 70 ms. 
+[08:49:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4d83162c-925d-4cd8-bdf4-5696c59d3950"' found 0 messages in 96 ms. 
+[08:49:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2fff5d75-cbf1-48ef-ae5f-5a265de0391c"' found 0 messages in 67 ms. 
+[08:49:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a35e36c4-ec02-4f39-964d-52e56eea2821"' found 0 messages in 81 ms. 
+[08:49:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ae1dec8b-8663-45cd-8fef-58ca6ebc17e7"' found 0 messages in 51 ms. 
+[08:49:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:49:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"01fb3b1b-0f88-44af-8438-c70cf2590a15"' found 0 messages in 42 ms. 
+[08:49:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8f096cee-3462-4799-a141-42ae6e656717"' found 0 messages in 34 ms. 
+[08:50:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"7a11beac-61fa-4c45-ae4e-009fbfa507e8"' found 0 messages in 51 ms. 
+[08:50:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"85a69c71-d3ad-4d15-adb8-1d6821decb0e"' found 0 messages in 75 ms. 
+[08:50:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:07 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e51c3b1d-da07-4c3c-8432-9c06055abe1f"' found 0 messages in 31 ms. 
+[08:50:07 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:09 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"94adfbc2-ffce-4aeb-9aaa-2c72a8463395"' found 0 messages in 78 ms. 
+[08:50:09 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"348e4700-3cd4-4531-a09c-c3eb3044a3a5"' found 0 messages in 35 ms. 
+[08:50:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9b6c40c7-fdfe-42d6-acdb-ccdcd21af152"' found 0 messages in 69 ms. 
+[08:50:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ee63e62a-649c-4300-9865-d7ba8fd85fe1"' found 0 messages in 79 ms. 
+[08:50:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3e82f2e8-6fa0-49e7-9468-649141b59045"' found 0 messages in 54 ms. 
+[08:50:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"40f53224-d4f0-4ced-93b0-158303a2aa72"' found 0 messages in 50 ms. 
+[08:50:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"aa8b02ac-d10a-496c-befc-48efbe75cdfe"' found 0 messages in 60 ms. 
+[08:50:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5ed186fd-3588-4012-a8f8-8f7b7aaec16b"' found 0 messages in 58 ms. 
+[08:50:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"53b72236-56a1-4b9e-beec-de1385785681"' found 0 messages in 34 ms. 
+[08:50:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5ad5db92-c201-4644-a148-13537439b593"' found 0 messages in 37 ms. 
+[08:50:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3a696708-f549-4ca1-a348-462f551857c8"' found 0 messages in 66 ms. 
+[08:50:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f5b75712-3f4a-4aaa-9b42-c768d2a1c574"' found 0 messages in 32 ms. 
+[08:50:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e7365fdb-0c04-4542-952b-dda64171977d"' found 0 messages in 50 ms. 
+[08:50:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:35 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "POST" "/api/message" responded 200 in 548.0544 ms 
+[08:50:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"39a85672-7b1a-48e8-9af8-9070152b036a"' found 1 messages in 57 ms. 
+[08:50:35 INF] [Function.ProcessQueueMessage] () Executing 'Functions.ProcessQueueMessage' (Reason='New queue message detected on 'webapitest'.', Id=f34adcaa-36f0-4ff0-bb22-a7562e479c3c) 
+[08:50:35 INF] [Function.ProcessQueueMessage] () Trigger Details: MessageId: "dfbd7364-0e36-41cc-b6c2-a452fa24a38e", DequeueCount: "1", InsertionTime: "2020-07-14T01:50:35.000+00:00" 
+[08:50:42 INF] [Function.ProcessQueueMessage.User] () ProcessQueueMessage Success: {"Type":"string","Data":"string"} 
+[08:50:42 INF] [Function.ProcessQueueMessage] () Executed 'Functions.ProcessQueueMessage' (Succeeded, Id=f34adcaa-36f0-4ff0-bb22-a7562e479c3c) 
+[08:50:42 INF] [Host.Results] () null 
+[08:50:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"62d82e4c-0a71-4ed7-bc79-4c2d85d336e3"' found 0 messages in 91 ms. 
+[08:50:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 100 ms before polling queue '"webapitest"'. 
+[08:50:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"49126f6a-023f-453a-ab6d-829d05ebeb75"' found 0 messages in 45 ms. 
+[08:50:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 204.1574 ms before polling queue '"webapitest"'. 
+[08:50:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f5ba1a23-6078-4cb6-a5c3-b0ccf5e6ac98"' found 0 messages in 35 ms. 
+[08:50:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 300.1217 ms before polling queue '"webapitest"'. 
+[08:50:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"820de6f1-ae14-4aa4-a6d0-5ff1880d9d4d"' found 0 messages in 39 ms. 
+[08:50:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 532.6341 ms before polling queue '"webapitest"'. 
+[08:50:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8b2346a6-0772-42b2-8280-0da2ad7c4d24"' found 0 messages in 36 ms. 
+[08:50:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 935.3032 ms before polling queue '"webapitest"'. 
+[08:50:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5dbaf304-6c61-4539-9a15-6e3a2baaea74"' found 0 messages in 33 ms. 
+[08:50:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 1602.78 ms before polling queue '"webapitest"'. 
+[08:50:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d3de33a7-6ba6-48cf-aa82-c32337d38ebf"' found 0 messages in 97 ms. 
+[08:50:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"12daeeff-eb27-474c-b377-e589d3430739"' found 0 messages in 35 ms. 
+[08:50:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ce74b9fb-25dd-4d01-8d2f-1497718946a6"' found 0 messages in 62 ms. 
+[08:50:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:50 INF] [Host.Aggregator] () null 
+[08:50:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f5c215f8-08f1-44a2-a156-f6c7bc7825f5"' found 0 messages in 58 ms. 
+[08:50:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"63329833-c64c-43b5-8add-17bfaeacbf0e"' found 0 messages in 54 ms. 
+[08:50:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"cd680925-3be0-4e2c-a79a-2b28b538dc42"' found 0 messages in 33 ms. 
+[08:50:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:50:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8218eb37-e0ad-43ec-90bc-49a947e3526b"' found 0 messages in 50 ms. 
+[08:50:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"130e6443-9831-4eac-8762-d410e93fc60b"' found 0 messages in 65 ms. 
+[08:51:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"42417158-a32a-41ae-bef9-34114e4a2c4a"' found 0 messages in 54 ms. 
+[08:51:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"df207225-a080-46c5-93a0-cdff8498f9f1"' found 0 messages in 46 ms. 
+[08:51:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:07 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8f260099-9e72-497e-8c3e-d88a37bbb7b3"' found 0 messages in 40 ms. 
+[08:51:07 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:09 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f95f06bb-e16b-4ab9-91f7-b41b30e8ab70"' found 0 messages in 56 ms. 
+[08:51:09 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f03c389d-7a50-411a-b2f3-b0897acf002b"' found 0 messages in 78 ms. 
+[08:51:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"942e429e-198f-47f4-b427-3e035adfba0e"' found 0 messages in 31 ms. 
+[08:51:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"27bb6969-5157-4099-9468-4400df5a6b1c"' found 0 messages in 66 ms. 
+[08:51:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"1e633178-6d2b-4b02-8ab2-9be9881f3dbd"' found 0 messages in 56 ms. 
+[08:51:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"84ef519c-80c3-477a-be48-cb87d998a6f3"' found 0 messages in 113 ms. 
+[08:51:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"0d78b21d-f096-4b94-b972-26494b3a0932"' found 0 messages in 52 ms. 
+[08:51:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"80ebf43e-ecec-4389-99a4-29b5e2a709ca"' found 0 messages in 32 ms. 
+[08:51:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3f09ec79-97e7-4485-b32f-f81f7323095f"' found 0 messages in 33 ms. 
+[08:51:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"80b2e758-6ec3-4243-978a-dffad14464e7"' found 0 messages in 84 ms. 
+[08:51:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3689852a-2ae4-4ca7-876d-7d8460377640"' found 0 messages in 80 ms. 
+[08:51:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"44968ef4-7b40-4818-b068-4968a3f74949"' found 0 messages in 60 ms. 
+[08:51:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"90e269ed-afbe-462a-8b3b-5a70205dbbdd"' found 0 messages in 59 ms. 
+[08:51:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8b134f13-53fd-4baa-9cbf-ab32db01dced"' found 0 messages in 109 ms. 
+[08:51:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"1e81c079-c5f3-4d4a-9bdb-934f9fa3cf24"' found 0 messages in 66 ms. 
+[08:51:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:40 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b6c8954b-b9d2-4e28-ac2c-4e3e3a7e54c5"' found 0 messages in 35 ms. 
+[08:51:40 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b88b13c6-3ace-467b-b3f9-e6a6fb9c1ed3"' found 0 messages in 82 ms. 
+[08:51:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"fc8722a4-0de8-4ac3-91e9-1ffcba2dc5f0"' found 0 messages in 50 ms. 
+[08:51:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"79f98f2c-9d90-4c70-80aa-4dff857a24a8"' found 0 messages in 52 ms. 
+[08:51:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f67c697c-9ae2-4200-b6a8-cedeae123df6"' found 0 messages in 40 ms. 
+[08:51:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"1f6ef7ab-6e29-4659-a83c-fa53495ec8f1"' found 0 messages in 61 ms. 
+[08:51:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4ba90a39-16e0-47e4-a0db-57c9ddc36601"' found 0 messages in 43 ms. 
+[08:51:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8e376a5f-63a8-4af5-a479-f9feb5cf3bee"' found 0 messages in 73 ms. 
+[08:51:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"eaab8c2b-fbf7-4ab5-aea3-42a99c70f7f8"' found 0 messages in 70 ms. 
+[08:51:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:51:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6ca31542-3c31-475e-91fc-a9671b8bd973"' found 0 messages in 68 ms. 
+[08:51:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"45cfc0b5-3a21-4136-9c4c-6365e165b02a"' found 0 messages in 84 ms. 
+[08:52:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"69c49269-bcd2-4a32-891b-d777d63e3033"' found 0 messages in 69 ms. 
+[08:52:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f85d20f3-50f0-4d5a-94a2-18c33321e5a4"' found 0 messages in 52 ms. 
+[08:52:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:07 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"40869a65-e17c-4ba4-8600-c8b554de8a10"' found 0 messages in 75 ms. 
+[08:52:07 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:09 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"80b26fdb-013e-49d6-9f0f-b5ec9c4c9430"' found 0 messages in 73 ms. 
+[08:52:09 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4fb9231a-b11f-4213-82ae-513fadb5a2fd"' found 0 messages in 58 ms. 
+[08:52:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6035a6c7-0b12-4736-b90c-7d103ccb1365"' found 0 messages in 43 ms. 
+[08:52:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e8c16c52-1e4b-4eef-bc30-125a5b8a33cd"' found 0 messages in 33 ms. 
+[08:52:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d639edb4-ff85-43e5-b175-ec52f863f264"' found 0 messages in 51 ms. 
+[08:52:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"557abe88-55c2-466e-8f94-03342bf6277f"' found 0 messages in 47 ms. 
+[08:52:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4482c5d4-299c-49d4-9fd5-4ece87460037"' found 0 messages in 65 ms. 
+[08:52:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e6661f08-8204-48f3-8747-151deb90430b"' found 0 messages in 66 ms. 
+[08:52:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3d31df23-79df-45fa-aecb-9cd2023bbc88"' found 0 messages in 87 ms. 
+[08:52:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"08ade62b-9894-4ab5-8215-b1772944425e"' found 0 messages in 63 ms. 
+[08:52:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6bad31ed-9e9e-4966-9726-dfda9f2f0b28"' found 0 messages in 66 ms. 
+[08:52:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a0e87fd2-ae63-47f2-a552-f003f69a347a"' found 0 messages in 78 ms. 
+[08:52:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"99244c1b-029c-4f10-9e43-ac02c7ae0201"' found 0 messages in 74 ms. 
+[08:52:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"19881c55-ea23-4b17-a0b5-a9788abc57e7"' found 0 messages in 60 ms. 
+[08:52:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"83508471-e375-410a-934f-358f9ed272a9"' found 0 messages in 80 ms. 
+[08:52:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:40 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a53f1bdb-d327-4bc1-b9fa-c024c3a05339"' found 0 messages in 76 ms. 
+[08:52:40 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5d5c4ff8-1789-4b28-b6cb-d251f9e41d1f"' found 0 messages in 49 ms. 
+[08:52:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"dd5c4907-d875-4b4d-b916-c4af84e7ac61"' found 0 messages in 94 ms. 
+[08:52:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"691d0f43-ee6b-4cb2-bc34-d61fa06c110b"' found 0 messages in 137 ms. 
+[08:52:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"fc44c705-6b07-42ae-a9c7-207027de156b"' found 0 messages in 73 ms. 
+[08:52:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d921e5b5-2b14-478a-8610-30e1c480cc16"' found 0 messages in 83 ms. 
+[08:52:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"82bef0db-a655-4a0d-b769-47412b46a804"' found 0 messages in 35 ms. 
+[08:52:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c54ff25b-3736-45e8-ad79-9592a630f743"' found 0 messages in 105 ms. 
+[08:52:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"244b90de-18f7-42c9-801a-e4183068ea70"' found 0 messages in 49 ms. 
+[08:52:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:52:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"94e79f8e-9429-4250-8078-c2c3ac6f6756"' found 0 messages in 35 ms. 
+[08:52:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"7a4b19c2-35dc-4d84-9ecb-cca23eab3a13"' found 0 messages in 51 ms. 
+[08:53:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"68859147-5ae7-41d1-939f-08159580dacf"' found 0 messages in 86 ms. 
+[08:53:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2df2e193-cab4-44cb-a9be-d6cbcb1118ae"' found 0 messages in 60 ms. 
+[08:53:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:07 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"49909d57-5e2e-4108-9f7b-cabe2b8d6b1d"' found 0 messages in 32 ms. 
+[08:53:07 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:09 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5e32b936-7c17-48be-9a79-c84f1a9dcfc3"' found 0 messages in 61 ms. 
+[08:53:09 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"75479ee6-1f4c-4ab2-bc4f-da0e54c13d04"' found 0 messages in 90 ms. 
+[08:53:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"93bc1496-0e05-49d2-9eb6-597680105f96"' found 0 messages in 45 ms. 
+[08:53:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ca16cd81-6ebf-44d4-a617-a94b135c4f18"' found 0 messages in 39 ms. 
+[08:53:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"df63f8c7-dafa-4e4e-b6c4-9750b8e83c06"' found 0 messages in 83 ms. 
+[08:53:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a3a635cf-7a86-4493-b6b2-dc784f045079"' found 0 messages in 47 ms. 
+[08:53:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"41d82504-b3df-4cbc-9f66-e6f57c9b29fb"' found 0 messages in 37 ms. 
+[08:53:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a25ce4eb-e5c9-4bec-952d-941ab7b4282d"' found 0 messages in 48 ms. 
+[08:53:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"075acf52-cb21-4f04-bf25-ac3c55254a70"' found 0 messages in 57 ms. 
+[08:53:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5eec0f1e-01fc-4fcf-b2e4-d7b8752a2c25"' found 0 messages in 40 ms. 
+[08:53:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c43690d2-94ae-4db7-98a8-ee5ca9911bdd"' found 0 messages in 61 ms. 
+[08:53:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"80101bf2-2cab-4a52-940b-2293b66ec617"' found 0 messages in 39 ms. 
+[08:53:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c846b5cf-755b-4f7a-9147-15bfd77a4d5e"' found 0 messages in 44 ms. 
+[08:53:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"762a8aac-4ae5-4eb5-b5d0-54c48554a7ec"' found 0 messages in 65 ms. 
+[08:53:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4319c085-7459-453b-a177-13ffb64ca3c3"' found 0 messages in 64 ms. 
+[08:53:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:40 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2152346d-1727-42b4-9d89-fedf4d779136"' found 0 messages in 80 ms. 
+[08:53:40 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"11e0238f-8759-4d35-8dcc-a8e4fc652d57"' found 0 messages in 60 ms. 
+[08:53:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e9ade5dd-0995-4fa3-a907-44a6949e2db6"' found 0 messages in 67 ms. 
+[08:53:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2731fa2f-3e88-465f-adfc-d6530875a9bd"' found 0 messages in 32 ms. 
+[08:53:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d50eb978-7007-4b72-91bd-573587e58351"' found 0 messages in 81 ms. 
+[08:53:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9e36e728-7580-4cd3-a4db-cc2b45d8c25e"' found 0 messages in 65 ms. 
+[08:53:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a5c7e9dc-9c78-4728-9ad9-4e2c69277e34"' found 0 messages in 52 ms. 
+[08:53:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5fbd7172-4c78-496c-aa68-7a61fd4e5ea2"' found 0 messages in 42 ms. 
+[08:53:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"707cd5ad-0abe-4b0d-ad04-e44825afcb0b"' found 0 messages in 92 ms. 
+[08:53:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:53:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"095fe886-8754-45e7-b32e-0c2bb51dd945"' found 0 messages in 31 ms. 
+[08:53:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"bcfc5ddb-af71-48d2-80e4-edf93849cad5"' found 0 messages in 58 ms. 
+[08:54:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b09cd481-73ab-4317-89e9-83236d724e8d"' found 0 messages in 92 ms. 
+[08:54:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"195d95ba-5d1d-49fb-8522-fa3566d2d559"' found 0 messages in 66 ms. 
+[08:54:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ca3bcbcd-79b5-4c5f-9aba-50c7c07171ac"' found 0 messages in 112 ms. 
+[08:54:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3a4efde7-9f78-45aa-b723-e36457e3816e"' found 0 messages in 31 ms. 
+[08:54:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4906a599-4fb2-4dcf-b8e2-cc49d3c90f3e"' found 0 messages in 48 ms. 
+[08:54:11 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9a849d27-381f-4620-bbc5-30dba75b4f96"' found 0 messages in 96 ms. 
+[08:54:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"7ff886d7-8f6d-4887-8a26-b2efe2db9a7f"' found 0 messages in 74 ms. 
+[08:54:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9a808ef7-11bf-4d0d-a5ab-6d6eeccafbc9"' found 0 messages in 99 ms. 
+[08:54:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"abcfa2b8-c4bb-4e7b-a3b1-85674881b9d4"' found 0 messages in 52 ms. 
+[08:54:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"491e7a78-364b-48eb-b567-c6558623c715"' found 0 messages in 63 ms. 
+[08:54:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f5773ed2-1fef-418d-9845-69272927a113"' found 0 messages in 56 ms. 
+[08:54:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"fbe8b3b9-2423-4256-aa0f-91fae6f4cd16"' found 0 messages in 33 ms. 
+[08:54:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d44ac91c-2261-4195-af83-f5d9eb426f76"' found 0 messages in 32 ms. 
+[08:54:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b8080996-215a-43c5-8d2f-b8731303b424"' found 0 messages in 36 ms. 
+[08:54:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"395b775b-a633-47df-9c68-8915251f9996"' found 0 messages in 45 ms. 
+[08:54:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"dd7f8947-39db-4ba2-bef9-185f0d546f7a"' found 0 messages in 62 ms. 
+[08:54:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e6bac71c-708f-469a-a273-af635dfddff2"' found 0 messages in 78 ms. 
+[08:54:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2395df3d-b8b5-4b59-b2c1-c4c2217527d0"' found 0 messages in 90 ms. 
+[08:54:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e279d35c-56b2-4c24-9ad5-de3baec47b58"' found 0 messages in 121 ms. 
+[08:54:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"41f2a189-a403-4222-85d1-445f3a6511da"' found 0 messages in 60 ms. 
+[08:54:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"7a61a7d2-f42c-42e5-95ee-ad14d070dc20"' found 0 messages in 47 ms. 
+[08:54:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ba1677c5-4b5d-4bec-9094-9e5abb13eaf4"' found 0 messages in 71 ms. 
+[08:54:46 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ccf0a72f-1ff4-4f5b-877f-216d78685ae2"' found 0 messages in 68 ms. 
+[08:54:48 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"0e1b875b-4280-49f3-a713-8d052f1cba65"' found 0 messages in 75 ms. 
+[08:54:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e2811b3e-07bb-42ba-bded-e20a1ecedbc6"' found 0 messages in 48 ms. 
+[08:54:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e261469e-5ae7-43c1-b765-2a3ee220c36e"' found 0 messages in 64 ms. 
+[08:54:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"98c5e9bb-fd90-4ff7-b028-761664e431df"' found 0 messages in 41 ms. 
+[08:54:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:54:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4f1cb0e2-9518-4056-99ad-349759ceda05"' found 0 messages in 85 ms. 
+[08:54:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"7d6f9e49-77c3-450f-9bf5-003ac68f64ca"' found 0 messages in 98 ms. 
+[08:55:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5db33f0a-005b-4d3c-92b4-fc8595b91789"' found 0 messages in 50 ms. 
+[08:55:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"822bf158-3ec6-4640-8124-9711c0d1fb0c"' found 0 messages in 80 ms. 
+[08:55:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2712097b-16c4-49f3-8ec5-4c34a3da2ccf"' found 0 messages in 37 ms. 
+[08:55:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"45927f9a-4e74-40cc-a37a-ce0b63c4ec92"' found 0 messages in 72 ms. 
+[08:55:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"1126eb7f-62df-4715-8ef2-df3541ec6384"' found 0 messages in 76 ms. 
+[08:55:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6d450388-e157-4026-bf82-6e03355ff88e"' found 0 messages in 44 ms. 
+[08:55:13 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f064f438-f5d7-48ba-8c25-a3384f575559"' found 0 messages in 41 ms. 
+[08:55:15 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5a7963ad-cabe-4d17-9266-9f6670686263"' found 0 messages in 38 ms. 
+[08:55:17 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"15c4c610-4e06-4ca1-b379-11ad694a93ed"' found 0 messages in 34 ms. 
+[08:55:19 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ee288262-da04-4216-a607-a8ee2a4d7dd2"' found 0 messages in 53 ms. 
+[08:55:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"7fd1c455-0771-48ed-9183-7c439382e09f"' found 0 messages in 84 ms. 
+[08:55:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"59b57d29-a27c-436e-916a-f7e1c8323300"' found 0 messages in 54 ms. 
+[08:55:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4d41d8e9-765f-436e-8229-812ae9e9f64c"' found 0 messages in 64 ms. 
+[08:55:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"46e6eed6-2317-480b-808b-bb8d525350a1"' found 0 messages in 98 ms. 
+[08:55:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a46018d5-b1d6-47ca-b52b-21e0d5457fff"' found 0 messages in 60 ms. 
+[08:55:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a1dc01b9-f688-4644-8533-55c66de5723a"' found 0 messages in 61 ms. 
+[08:55:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"af115fd1-6470-40c4-bc62-ad817a664c90"' found 0 messages in 32 ms. 
+[08:55:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b75ef1f7-b7e4-4f81-a6d5-542a89f015de"' found 0 messages in 45 ms. 
+[08:55:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"785e1640-47aa-494e-a9db-957097d09cb6"' found 0 messages in 75 ms. 
+[08:55:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"88658a78-f255-462f-98b4-6b730a2bf4f5"' found 0 messages in 39 ms. 
+[08:55:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a2aaa9b9-a2a6-4336-be92-e3d2ce726da2"' found 0 messages in 32 ms. 
+[08:55:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e32a8ad4-6594-4dd2-a2f6-c5e574e3178e"' found 0 messages in 53 ms. 
+[08:55:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6f8efb44-56d3-4d92-98fb-d1b31e7af81a"' found 0 messages in 40 ms. 
+[08:55:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ea068ef4-1ee6-4e8d-b4ec-8d4ecbc13778"' found 0 messages in 54 ms. 
+[08:55:50 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"56d1e767-7696-4ba1-b276-2424708855d3"' found 0 messages in 58 ms. 
+[08:55:52 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8270ea46-adf0-48f5-83bc-18b8b2114a6c"' found 0 messages in 69 ms. 
+[08:55:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2bdc8d0d-4828-4272-b4c1-00467b3a458f"' found 0 messages in 62 ms. 
+[08:55:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:55:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ec7670c9-b30f-493d-9d35-008e4f04effd"' found 0 messages in 51 ms. 
+[08:55:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"11097427-222a-4dac-ab4b-8ca873cbb21f"' found 0 messages in 61 ms. 
+[08:56:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4ba4befb-ef45-47db-88a5-538b8d90f6c6"' found 0 messages in 89 ms. 
+[08:56:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2baeb554-1357-4ada-ba7a-c4e8d89aa684"' found 0 messages in 73 ms. 
+[08:56:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2b832a4d-f984-4ec6-b789-28aa1c84e170"' found 0 messages in 33 ms. 
+[08:56:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"456bec9b-60fe-4ee6-9142-5e8674dafec0"' found 0 messages in 45 ms. 
+[08:56:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"bb4cec10-aad6-4e9f-8cd1-a4d6b67f8c41"' found 0 messages in 96 ms. 
+[08:56:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b8f9d904-0b66-4aed-8082-1597ac1bd1fd"' found 0 messages in 38 ms. 
+[08:56:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"734f8b2f-a883-4917-8996-6693071d9e8f"' found 0 messages in 48 ms. 
+[08:56:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"580564d7-6b1c-4cfe-9c99-092a7169eb50"' found 0 messages in 74 ms. 
+[08:56:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"cbff4be9-664e-4d2e-be07-49c30fc0cf9f"' found 0 messages in 93 ms. 
+[08:56:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e82b8449-d3fa-485d-98df-c31ef1a2443b"' found 0 messages in 48 ms. 
+[08:56:21 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"79e19a4a-a6fc-4256-b473-3308c1747ecc"' found 0 messages in 31 ms. 
+[08:56:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"325809b1-978f-4cf0-a96d-e516dd95caa3"' found 0 messages in 75 ms. 
+[08:56:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2656bb50-80fc-40fc-8d1e-9ab39f63e2ae"' found 0 messages in 76 ms. 
+[08:56:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"84ac6db3-e249-472e-8a87-05b0b8f8487f"' found 0 messages in 50 ms. 
+[08:56:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"adc5a1a6-5da1-448b-9c61-3e564d34f8ba"' found 0 messages in 74 ms. 
+[08:56:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"24973d34-e517-4145-81f3-b2ab04d65729"' found 0 messages in 58 ms. 
+[08:56:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"16cf143c-aa9e-4451-bc4e-1a50e21a38a2"' found 0 messages in 76 ms. 
+[08:56:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c4d0dafa-70e6-41a4-85fd-8aad535ecf11"' found 0 messages in 52 ms. 
+[08:56:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"567b5458-0b79-4753-8bd4-a18c62e214fb"' found 0 messages in 81 ms. 
+[08:56:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f56d0ce8-77e7-470b-9c79-44626d6196b7"' found 0 messages in 95 ms. 
+[08:56:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8ae0026c-bc3c-4938-b6fa-5c6a63ecf8b7"' found 0 messages in 34 ms. 
+[08:56:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3a75cce4-a85b-4854-a1f7-38ee92967bbe"' found 0 messages in 36 ms. 
+[08:56:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6a3b2dac-f530-4c63-a134-bcf8b0eb1275"' found 0 messages in 34 ms. 
+[08:56:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4cd0da11-6f1e-4259-9543-1391d024c976"' found 0 messages in 35 ms. 
+[08:56:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"19f11730-11c6-45a3-a384-5d8ad98861d7"' found 0 messages in 60 ms. 
+[08:56:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4239bdd9-5626-496c-9684-881413e16206"' found 0 messages in 76 ms. 
+[08:56:54 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c6249bb0-bd6c-434e-a214-a9a1d49ac6aa"' found 0 messages in 89 ms. 
+[08:56:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:56:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c860da4e-5391-494c-af1d-4b19debafc7a"' found 0 messages in 79 ms. 
+[08:56:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8fdee2be-b3e5-4167-97b9-a542f84030c9"' found 0 messages in 65 ms. 
+[08:57:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"bc6d98f2-2735-41c8-af2a-129a9713d1dd"' found 0 messages in 75 ms. 
+[08:57:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d33cfb1d-80a8-410b-b3c4-6ac260056b79"' found 0 messages in 53 ms. 
+[08:57:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2051036b-bee2-4012-9768-1f5829adf842"' found 0 messages in 87 ms. 
+[08:57:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d104a954-0102-4db3-947b-3d85c70a0db5"' found 0 messages in 63 ms. 
+[08:57:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f272e551-c6eb-4063-b2e6-ff7c4dc1b7d7"' found 0 messages in 36 ms. 
+[08:57:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3824f50e-59e0-485b-a2c0-1b943ecb6611"' found 0 messages in 34 ms. 
+[08:57:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4420c1c5-1d73-4f09-8f83-89b79f3f58fe"' found 0 messages in 84 ms. 
+[08:57:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d384e0d8-0bb3-4782-8c3a-6d70cd12ff73"' found 0 messages in 55 ms. 
+[08:57:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"758720f3-0787-49c9-a20f-eb40504c3984"' found 0 messages in 60 ms. 
+[08:57:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"34560cdc-d8d6-438c-a2c7-973c1f062e84"' found 0 messages in 120 ms. 
+[08:57:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"bf4ea8c1-e073-4c5c-828a-3fe9a15719f3"' found 0 messages in 76 ms. 
+[08:57:23 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f1833bac-71e0-4482-a3a5-0bb844bb0df1"' found 0 messages in 61 ms. 
+[08:57:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"97eb1ed1-b5c3-4526-8e5b-fd46a6a8621b"' found 0 messages in 77 ms. 
+[08:57:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d3f63561-adc7-4d47-a0e1-9982aa0f9e95"' found 0 messages in 57 ms. 
+[08:57:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c2097040-a738-4174-be2d-508c8f6b21f1"' found 0 messages in 101 ms. 
+[08:57:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"933c391f-947f-4c7e-b317-63e9b61bd2ab"' found 0 messages in 73 ms. 
+[08:57:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e3c44ccf-3d77-49aa-b40e-b982370c0a81"' found 0 messages in 89 ms. 
+[08:57:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"65658862-8b75-43f8-b124-7ab4cbdcbc79"' found 0 messages in 34 ms. 
+[08:57:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"506e1862-125d-4e33-84ce-68f1632495ef"' found 0 messages in 36 ms. 
+[08:57:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2b3286c6-9323-42bb-8e81-009ab3b3c69a"' found 0 messages in 48 ms. 
+[08:57:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a9365818-deaf-4b73-b3e0-b40d95059e54"' found 0 messages in 62 ms. 
+[08:57:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"cc168308-acc9-46a5-a1a0-8bdd1164400c"' found 0 messages in 45 ms. 
+[08:57:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"bcef5f9f-b4ec-47b9-82db-6e43b92ffe37"' found 0 messages in 31 ms. 
+[08:57:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a17b94fb-f671-4f3c-ba76-d4ebfdfc8b0a"' found 0 messages in 84 ms. 
+[08:57:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9604f103-d201-4a44-8f86-fb51b532b7ed"' found 0 messages in 88 ms. 
+[08:57:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b76ac592-a500-42e7-9558-3c720de3c29a"' found 0 messages in 57 ms. 
+[08:57:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c31dbb23-a313-407d-a362-2b2f80014f3f"' found 0 messages in 34 ms. 
+[08:57:56 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:57:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2378e87f-6c4d-4cca-9c07-1203fa76fdb2"' found 0 messages in 88 ms. 
+[08:57:58 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d83eb66b-6934-4cd1-8fb2-1fb1a13901e8"' found 0 messages in 38 ms. 
+[08:58:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d0cb0017-fc05-408c-8e32-376b4d223418"' found 0 messages in 70 ms. 
+[08:58:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"95083f50-830c-4af9-937d-02f1244ad499"' found 0 messages in 50 ms. 
+[08:58:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"93d62ccf-ec1d-4225-9b8c-42ea54ea519e"' found 0 messages in 86 ms. 
+[08:58:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"482fa3a3-a53e-45d6-9bb4-37f0b333798c"' found 0 messages in 84 ms. 
+[08:58:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6c05d539-13c1-41d6-a4c3-87a408d10f11"' found 0 messages in 72 ms. 
+[08:58:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"11ba8661-7a74-43c8-85a9-af982ec7fef0"' found 0 messages in 63 ms. 
+[08:58:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"fd892063-5d9c-4403-af7d-c00efafe4a35"' found 0 messages in 99 ms. 
+[08:58:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"93e9b997-cba7-422b-aa29-d3d09d053a2f"' found 0 messages in 78 ms. 
+[08:58:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b0dcdf92-c196-497b-99fa-ce425a12ed80"' found 0 messages in 72 ms. 
+[08:58:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a9d07285-a900-4803-adda-50658d7fb947"' found 0 messages in 68 ms. 
+[08:58:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:22 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6d4e1e91-e563-4d81-b7bc-e174c7380b91"' found 0 messages in 50 ms. 
+[08:58:22 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5dd839a0-2a63-485e-be81-7f2c2c32a558"' found 0 messages in 52 ms. 
+[08:58:25 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f192ad4a-fba0-48bb-8f8d-65a386eb27d9"' found 0 messages in 34 ms. 
+[08:58:27 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"df48c0d5-1b47-4bc0-910a-42eb3b139166"' found 0 messages in 66 ms. 
+[08:58:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"471f5af2-d543-45f3-9029-7afdb06deea8"' found 0 messages in 87 ms. 
+[08:58:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"bc6b7749-320f-4f7a-87d6-c0ab5311f6b3"' found 0 messages in 83 ms. 
+[08:58:33 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5aed61fb-1d8d-4a64-81f0-b0af352b73e8"' found 0 messages in 71 ms. 
+[08:58:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4b967fcb-65c0-4f14-948f-8d6318455cb6"' found 0 messages in 83 ms. 
+[08:58:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"7fd01f63-35ea-42ca-aa9d-c6bc8337a16a"' found 0 messages in 60 ms. 
+[08:58:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3392d229-4b5e-4859-a3bf-2ca70cfb5b24"' found 0 messages in 34 ms. 
+[08:58:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c96ad64a-75d3-4e5b-aa2b-41949d133a4d"' found 0 messages in 79 ms. 
+[08:58:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c2fd9cc4-fe2d-4f24-9fbb-da353342e58a"' found 0 messages in 37 ms. 
+[08:58:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f17b8773-7813-4a93-b0ef-e0bb40d1bace"' found 0 messages in 33 ms. 
+[08:58:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3f9e4d06-91ac-45e4-8828-fcf2ef0fa337"' found 0 messages in 39 ms. 
+[08:58:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6ad90940-01d3-4d93-bb86-a1c91760f43b"' found 0 messages in 74 ms. 
+[08:58:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"44333340-093e-4e9d-8987-ba57f61446f7"' found 0 messages in 31 ms. 
+[08:58:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:55 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8b94f440-b174-45d5-b287-9de15da28e32"' found 0 messages in 55 ms. 
+[08:58:55 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:58:57 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b280d30b-2af7-424e-80af-da92ad548983"' found 0 messages in 39 ms. 
+[08:58:57 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"0db1454b-fea2-4723-af9c-8aeb8c0767bf"' found 0 messages in 81 ms. 
+[08:59:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8261fe9a-25c6-4e84-b9f5-6523fa3b61a5"' found 0 messages in 33 ms. 
+[08:59:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"fbbf6422-805c-4a56-ab97-dc2f385e6ad4"' found 0 messages in 35 ms. 
+[08:59:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b9d9733d-6fbd-41da-af8a-fd9db7029cdc"' found 0 messages in 36 ms. 
+[08:59:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"587b6d2b-d014-467d-8f04-cded48e02722"' found 0 messages in 74 ms. 
+[08:59:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a6b38396-d481-43b3-8cc5-9806d2459222"' found 0 messages in 40 ms. 
+[08:59:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f95ad667-b851-4e92-b6d8-0501828266f6"' found 0 messages in 75 ms. 
+[08:59:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"7028b44a-9442-463c-9c0b-339426d02e7d"' found 0 messages in 39 ms. 
+[08:59:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"598d13b6-dd6f-46bd-a0e7-f7d694b7b8fe"' found 0 messages in 69 ms. 
+[08:59:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f8e71706-bcc5-4aec-a27e-44038fd5289a"' found 0 messages in 59 ms. 
+[08:59:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"fa824ec5-465d-4dc8-b908-3424727b353a"' found 0 messages in 69 ms. 
+[08:59:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:22 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a55e860c-c9bf-4309-be20-18605d8893bc"' found 0 messages in 53 ms. 
+[08:59:22 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:24 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c7fd8887-eb9e-4ce2-99e7-9930d15a0812"' found 0 messages in 65 ms. 
+[08:59:24 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:26 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f6563acc-c986-4fff-8e2c-db6bc27266a5"' found 0 messages in 35 ms. 
+[08:59:26 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"84d7879c-59f9-4f3f-a588-345571920177"' found 0 messages in 33 ms. 
+[08:59:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4e7e9855-6b31-4dc5-9d4d-fbdb9b400ef5"' found 0 messages in 41 ms. 
+[08:59:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:32 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"202aa4bf-b1c8-43f3-8350-ddd6ecd0ed8a"' found 0 messages in 61 ms. 
+[08:59:32 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"41cfc63c-1346-4afc-b6b9-0409c45ee0cf"' found 0 messages in 91 ms. 
+[08:59:35 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6024fd91-e2c2-4823-8191-46b9ca95e894"' found 0 messages in 70 ms. 
+[08:59:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"899b7676-7d46-4b15-82ff-f3d7d8e57b12"' found 0 messages in 81 ms. 
+[08:59:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c1554f65-bc4b-43fa-98c8-1d070b799d3c"' found 0 messages in 76 ms. 
+[08:59:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"bc24414a-60b8-47f8-90c9-639120b4f347"' found 0 messages in 74 ms. 
+[08:59:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3ae8e2bf-e19b-4444-85f7-025a7a49f1c3"' found 0 messages in 97 ms. 
+[08:59:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"104dfd18-1e5d-4bf3-8394-696f833b0c8c"' found 0 messages in 46 ms. 
+[08:59:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b825cafc-070d-42e1-aa1c-763bd9e2328f"' found 0 messages in 55 ms. 
+[08:59:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3a38d89c-fbe4-41c3-89ee-1f0e3b2ae87f"' found 0 messages in 69 ms. 
+[08:59:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"0e1c47ec-0a73-40a0-a12e-076eb683e12e"' found 0 messages in 53 ms. 
+[08:59:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:55 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"850c9e85-6212-4b03-84be-d405f00147c8"' found 0 messages in 50 ms. 
+[08:59:55 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:57 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"fc9653a8-7a12-46a6-a134-adf169c934f2"' found 0 messages in 85 ms. 
+[08:59:57 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[08:59:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6e91922f-9e0f-478c-9261-4960b695ea41"' found 0 messages in 67 ms. 
+[08:59:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"84e8c2d2-dd74-4738-8b4d-b978d0a9eceb"' found 0 messages in 36 ms. 
+[09:00:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"edd70168-eff8-4f62-b1ab-d0e70e38da1c"' found 0 messages in 50 ms. 
+[09:00:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"650c81ed-fae7-4caa-8683-62fa7f75aebf"' found 0 messages in 87 ms. 
+[09:00:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"be3b7a76-c8c5-4f7a-8375-a10072cdc3cb"' found 0 messages in 60 ms. 
+[09:00:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9a80ed28-bde2-4e5e-a01d-43206e12e6d9"' found 0 messages in 72 ms. 
+[09:00:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a0ea1208-2ca1-459e-b7a3-9278966d62e2"' found 0 messages in 55 ms. 
+[09:00:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9956c6fd-0719-4f1b-84dc-3a895c1b4d83"' found 0 messages in 103 ms. 
+[09:00:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"1477fd9f-c31b-48d6-9256-8f2c4ebfd9c7"' found 0 messages in 63 ms. 
+[09:00:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"da49ab6d-89e7-41d4-bf76-6a8de2c77682"' found 0 messages in 33 ms. 
+[09:00:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"246126a0-8a8d-4552-8747-de0055095d0a"' found 0 messages in 77 ms. 
+[09:00:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:22 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"33bfd8f2-739b-4402-96cb-779e469a5a43"' found 0 messages in 51 ms. 
+[09:00:22 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:24 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"55c3182b-72d4-411f-addf-c91cfb889cd4"' found 0 messages in 86 ms. 
+[09:00:24 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:26 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2476e520-6302-42fe-af2b-5c53c4fea7d4"' found 0 messages in 74 ms. 
+[09:00:26 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f44d1db9-3e71-4ce2-9efa-2bee8b4c042c"' found 0 messages in 56 ms. 
+[09:00:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"25cb18e6-9b0c-4bbd-8e87-63b7f83e0222"' found 0 messages in 61 ms. 
+[09:00:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:32 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"916373d1-cf4e-4bc7-9bce-2cec9434e514"' found 0 messages in 53 ms. 
+[09:00:32 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ce3055f2-f70f-4ba2-9e6b-0a5c2ebc0f20"' found 0 messages in 72 ms. 
+[09:00:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d9903b37-4ea6-4357-8086-39e11af3a384"' found 0 messages in 65 ms. 
+[09:00:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"aefaf88d-b9b7-404c-8649-b2cbd0853d45"' found 0 messages in 68 ms. 
+[09:00:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ce504a73-b6e5-4589-aa4a-890dc75bb810"' found 0 messages in 81 ms. 
+[09:00:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c0c16809-ff01-43ec-b403-0428445b24ca"' found 0 messages in 32 ms. 
+[09:00:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b3168652-de5a-4661-977d-c4332a43ef97"' found 0 messages in 89 ms. 
+[09:00:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4267bfe7-f8e6-44f6-b2c3-6fd5e0a327cd"' found 0 messages in 72 ms. 
+[09:00:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b37ec4e8-298c-49d6-b89f-9f1ad9937796"' found 0 messages in 71 ms. 
+[09:00:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8351299d-91b4-4f60-b21b-3cd953f3488a"' found 0 messages in 62 ms. 
+[09:00:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"030ad2bb-2928-470b-a000-dcb018fc1b2b"' found 0 messages in 53 ms. 
+[09:00:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:55 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"887d0b2e-c6a1-41d7-9a12-701156f09ab6"' found 0 messages in 63 ms. 
+[09:00:55 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:57 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b455d02d-93f2-45af-b94d-f194b606d265"' found 0 messages in 79 ms. 
+[09:00:57 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:00:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"0009db69-4a06-4ee2-9676-5a769ef03610"' found 0 messages in 79 ms. 
+[09:00:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9c57e39f-b73e-4d90-9a9c-b07a1960bac4"' found 0 messages in 56 ms. 
+[09:01:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9b1f03da-615e-4b64-90e3-56227b380ccb"' found 0 messages in 36 ms. 
+[09:01:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e0c16635-3a43-4963-8862-fa95bbdfd591"' found 0 messages in 58 ms. 
+[09:01:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"bb2fa4ba-db3b-4bd4-840a-12e511356450"' found 0 messages in 35 ms. 
+[09:01:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"73ed6b6d-caa0-4e39-aa4f-a125b38aa4e2"' found 0 messages in 94 ms. 
+[09:01:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6b7d81a1-8d92-41b0-9733-5d378630230c"' found 0 messages in 62 ms. 
+[09:01:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"1d4c2969-43ae-480c-b1c8-f6eb88598cf0"' found 0 messages in 39 ms. 
+[09:01:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2ac3d484-e4f5-46df-8d88-c69370138a8c"' found 0 messages in 88 ms. 
+[09:01:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8c3e788a-96e7-46b4-82a8-80efd5198a2b"' found 0 messages in 84 ms. 
+[09:01:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a8f1ee97-d4e7-4e7f-a586-e9659ca4cfd4"' found 0 messages in 47 ms. 
+[09:01:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:22 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"888b4cd7-6dcb-4a48-b0cb-caf4a8cdb1f1"' found 0 messages in 100 ms. 
+[09:01:22 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:24 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d5b50826-0a87-454b-a0f4-a1d2f0503fb3"' found 0 messages in 54 ms. 
+[09:01:24 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:26 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"07876bc6-5372-40c1-9e21-9bc79ddd8d5b"' found 0 messages in 52 ms. 
+[09:01:26 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ec961158-602f-457a-bcb5-a99545e33f4b"' found 0 messages in 65 ms. 
+[09:01:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d834ff35-e44b-4b88-87e4-d1ccbebc2940"' found 0 messages in 76 ms. 
+[09:01:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:32 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"ac379d6d-47de-4541-a379-007687a73e5a"' found 0 messages in 33 ms. 
+[09:01:32 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2664f844-abb2-4b8f-8e8b-46e7b6f3ac43"' found 0 messages in 90 ms. 
+[09:01:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a8f50e64-0bb6-45e1-ac36-26b5f6f2962f"' found 0 messages in 75 ms. 
+[09:01:37 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8c8dd229-6567-43a2-9798-91adec2323f7"' found 0 messages in 42 ms. 
+[09:01:39 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d8ec89fd-05d7-4898-9005-1f58116374fc"' found 0 messages in 83 ms. 
+[09:01:41 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3f3d4679-fd6d-4053-b555-1c58a66045fa"' found 0 messages in 59 ms. 
+[09:01:43 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6301bc4a-89d2-4ce5-a06c-957ad387c48a"' found 0 messages in 74 ms. 
+[09:01:45 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b69bf97f-0a5a-4bf6-a40d-97412863b3be"' found 0 messages in 50 ms. 
+[09:01:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e7b76759-f329-4a82-936d-ddff2c30b406"' found 0 messages in 53 ms. 
+[09:01:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"02eaf5fa-4a52-4d26-bb2c-024e3564fd46"' found 0 messages in 68 ms. 
+[09:01:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"37259681-0810-44e6-9451-739c57b54596"' found 0 messages in 61 ms. 
+[09:01:53 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:55 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5b49b708-81cc-4597-80bd-b41da7e2c8d3"' found 0 messages in 60 ms. 
+[09:01:55 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:57 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"893c05d6-0d19-4c00-9efd-d4ab92c64473"' found 0 messages in 33 ms. 
+[09:01:57 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:01:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"36ff9b4f-a40f-4a4d-804d-f45ca1b33932"' found 0 messages in 54 ms. 
+[09:01:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c21201a8-2b66-4e8d-b371-f0031c150106"' found 0 messages in 92 ms. 
+[09:02:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b41f6cb6-feac-428e-9f18-ecbe49a9458c"' found 0 messages in 56 ms. 
+[09:02:03 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"8a6d369d-2874-488b-a798-c3ffbba517b3"' found 0 messages in 74 ms. 
+[09:02:05 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:07 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"46290331-637f-4527-b874-7d0a12019568"' found 0 messages in 40 ms. 
+[09:02:07 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6ba69bb5-88f8-4e1f-a4ba-db0909b92a68"' found 0 messages in 56 ms. 
+[09:02:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2d3bdf0d-d1bb-46ed-9848-87541fe0929c"' found 0 messages in 36 ms. 
+[09:02:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3005500f-af2f-469f-85a5-0342ae6c2ea8"' found 0 messages in 55 ms. 
+[09:02:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"268d617f-b660-4d95-8deb-abaf948b669a"' found 0 messages in 33 ms. 
+[09:02:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3476ee6d-852c-42c5-a713-81a5d8d3ff7e"' found 0 messages in 63 ms. 
+[09:02:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"6a2a02d3-5504-478c-8c06-7b01d649fff4"' found 0 messages in 43 ms. 
+[09:02:20 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:22 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"48276edb-728e-4025-99a6-3eed47b76858"' found 0 messages in 37 ms. 
+[09:02:22 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:24 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"7f4d3aa3-d5e9-44cb-80a0-ec82052562a3"' found 0 messages in 69 ms. 
+[09:02:24 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:26 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"4e3bb450-3ee0-4cc4-b128-72339e2e5add"' found 0 messages in 50 ms. 
+[09:02:26 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"fa0ef51a-0244-4b5b-b012-74f293307527"' found 0 messages in 92 ms. 
+[09:02:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9e7207a4-e2d0-4053-afb3-e6efd743c67f"' found 0 messages in 41 ms. 
+[09:02:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:32 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"1c3835cc-bbff-490d-9393-764dd11f7b85"' found 0 messages in 61 ms. 
+[09:02:32 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"d624303f-d5f9-4a0a-9731-1871593569d7"' found 0 messages in 71 ms. 
+[09:02:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"eb49ffc7-8c6f-4d78-97dc-ef7c4e9b03d5"' found 0 messages in 66 ms. 
+[09:02:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"905f4c5b-fc3f-49c2-a5db-eb107a5949a9"' found 0 messages in 66 ms. 
+[09:02:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:40 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c2d1a433-608c-4f6f-8358-128c66bfbe37"' found 0 messages in 39 ms. 
+[09:02:40 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"669f6c14-7222-446f-bd40-6d03f2af798a"' found 0 messages in 48 ms. 
+[09:02:42 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"967f3fe8-e8fe-4ee7-83af-e6aab0b6aefd"' found 0 messages in 89 ms. 
+[09:02:44 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"e9897081-afcf-4f2c-a094-25d89dd1cdec"' found 0 messages in 54 ms. 
+[09:02:47 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"de362c5f-6ce4-4c22-b426-607a35280d43"' found 0 messages in 101 ms. 
+[09:02:49 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[09:02:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"3fad6819-56d8-4925-ad6e-5aba0fd6f859"' found 0 messages in 35 ms. 
+[09:02:51 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[16:28:52 INF] [] () Starting web host 
+[16:28:58 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[16:28:58 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () FunctionResultAggregatorOptions
+{
+  "BatchSize": 1000,
+  "FlushTimeout": "00:00:30",
+  "IsEnabled": true
+} 
+[16:28:58 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () QueuesOptions
+{
+  "BatchSize": 16,
+  "NewBatchThreshold": 64,
+  "MaxPollingInterval": "00:00:02",
+  "MaxDequeueCount": 5,
+  "VisibilityTimeout": "00:01:00"
+} 
+[16:28:58 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () SingletonOptions
+{
+  "LockPeriod": "00:00:15",
+  "ListenerLockPeriod": "00:00:15",
+  "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+  "LockAcquisitionPollingInterval": "00:00:05",
+  "ListenerLockRecoveryPollingInterval": "00:01:00"
+} 
+[16:28:58 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () BlobsOptions
+{
+  "CentralizedPoisonQueue": false
+} 
+[16:28:58 INF] [Microsoft.Azure.WebJobs.Hosting.JobHostService] () Starting JobHost 
+[16:28:59 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/index.html" responded 200 in 124.5717 ms 
+[16:28:59 INF] [Host.Startup] () Found the following functions:
+WebApiTest.Functions.ProcessQueueMessage
+WebApiTest.Functions.ProcessQueueMessage2
+ 
+[16:28:59 INF] [Host.Startup] () Job host started 
+[16:28:59 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[16:28:59 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "development" 
+[16:28:59 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest" 
+[16:28:59 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[16:28:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"a8a76890-35d8-49ed-82c0-7e7f0d0a1aff"' found 0 messages in 243 ms. 
+[16:28:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"9f0e6a71-5d4b-402b-8a7a-7031c6185a4e"' found 0 messages in 243 ms. 
+[16:28:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 100 ms before polling queue '"webapitest"'. 
+[16:28:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 100 ms before polling queue '"webapitest2"'. 
+[16:28:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"fe2a3acf-c8c3-42a0-b187-24e22fe4124c"' found 0 messages in 149 ms. 
+[16:28:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"04a9dfc6-e456-4c70-b9a9-0fe33148e1a0"' found 0 messages in 149 ms. 
+[16:28:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 201.6341 ms before polling queue '"webapitest"'. 
+[16:28:59 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 209.7953 ms before polling queue '"webapitest2"'. 
+[16:29:00 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 258.9313 ms 
+[16:29:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"6cdc8c89-1f4d-41ff-92f5-1c6e753936a6"' found 0 messages in 158 ms. 
+[16:29:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"440af6b1-7053-4b6a-b8e9-65494682a569"' found 0 messages in 158 ms. 
+[16:29:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 288.1713 ms before polling queue '"webapitest2"'. 
+[16:29:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 261.1629 ms before polling queue '"webapitest"'. 
+[16:29:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"936b8700-61d6-40d5-a9c8-26d2dc8eaa17"' found 0 messages in 61 ms. 
+[16:29:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 441.6702 ms before polling queue '"webapitest"'. 
+[16:29:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"a0cac0d5-d275-4263-ad6a-60ac6e233bda"' found 0 messages in 58 ms. 
+[16:29:00 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 498.9774 ms before polling queue '"webapitest2"'. 
+[16:29:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"56f3afb2-00bc-4539-b784-1f770d448f63"' found 0 messages in 83 ms. 
+[16:29:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 954.3159 ms before polling queue '"webapitest"'. 
+[16:29:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"6af15e4f-18ad-4768-96ef-59ec62701f2c"' found 0 messages in 65 ms. 
+[16:29:01 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 896.7505 ms before polling queue '"webapitest2"'. 
+[16:29:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b3bd88f8-21fc-4d2d-b9a1-dff301c58429"' found 0 messages in 118 ms. 
+[16:29:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 1839.0868 ms before polling queue '"webapitest"'. 
+[16:29:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"72e9e672-909a-4770-a87f-020962269f22"' found 0 messages in 123 ms. 
+[16:29:02 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 1828.1461 ms before polling queue '"webapitest2"'. 
+[16:29:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"31937559-9c2d-438e-acdb-7619f45e7694"' found 0 messages in 82 ms. 
+[16:29:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"f8ac720b-ed1e-45d8-aef7-e975945a1afd"' found 0 messages in 100 ms. 
+[16:29:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 2000 ms before polling queue '"webapitest2"'. 
+[16:29:04 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[16:29:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"befd1ad2-f703-4bd1-a159-50ca0c6f754d"' found 0 messages in 78 ms. 
+[16:29:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 2000 ms before polling queue '"webapitest2"'. 
+[16:29:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"10d63437-3083-4ecd-9024-32ffa1a8cd9b"' found 0 messages in 79 ms. 
+[16:29:06 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[16:29:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"ad6eaab7-5530-4494-8736-c3e946aa125c"' found 0 messages in 63 ms. 
+[16:29:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"c841aa25-5660-4faf-9cbf-bf42455eb167"' found 0 messages in 63 ms. 
+[16:29:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 2000 ms before polling queue '"webapitest2"'. 
+[16:29:08 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[16:29:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"f06321a8-90cd-480f-978a-7b8421e38277"' found 0 messages in 94 ms. 
+[16:29:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"d8674681-ece1-4d55-b7e6-3c32c90d35a4"' found 0 messages in 93 ms. 
+[16:29:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[16:29:10 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 2000 ms before polling queue '"webapitest2"'. 
+[16:29:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"b3c6c07f-7d38-4bc5-a519-435ccb8c0e9a"' found 0 messages in 138 ms. 
+[16:29:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"30395d36-e789-44a4-8537-9227ec9c79e3"' found 0 messages in 137 ms. 
+[16:29:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 2000 ms before polling queue '"webapitest2"'. 
+[16:29:12 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[16:29:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"79deecd9-e0bd-401d-ba0a-58f1583d04ce"' found 0 messages in 103 ms. 
+[16:29:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"1dbbad5e-f2b5-4a31-9127-8c162b50ced3"' found 0 messages in 126 ms. 
+[16:29:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 2000 ms before polling queue '"webapitest2"'. 
+[16:29:14 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[16:29:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2edf15f7-798d-4b2f-8232-d590aa7f9aca"' found 0 messages in 64 ms. 
+[16:29:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"189352b2-6dcd-434d-812d-9ffc2360b373"' found 0 messages in 64 ms. 
+[16:29:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[16:29:16 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 2000 ms before polling queue '"webapitest2"'. 
+[16:29:17 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "POST" "/api/message" responded 200 in 952.9006 ms 
+[16:29:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"418501ca-34c2-4ac4-a85e-966bde6b968d"' found 1 messages in 151 ms. 
+[16:29:18 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"b885da00-a430-40d2-ab5b-16edb2c4ad6d"' found 1 messages in 151 ms. 
+[16:29:18 INF] [Function.ProcessQueueMessage2] () Executing 'Functions.ProcessQueueMessage2' (Reason='New queue message detected on 'webapitest2'.', Id=77b0d917-16aa-4271-bb72-c01a51d10cf2) 
+[16:29:18 INF] [Function.ProcessQueueMessage] () Executing 'Functions.ProcessQueueMessage' (Reason='New queue message detected on 'webapitest'.', Id=08230ae4-7fa6-4939-b426-e2b9ee5f497d) 
+[16:29:18 INF] [Function.ProcessQueueMessage] () Trigger Details: MessageId: "9a1eb2fd-94c7-42d8-ba3f-1205a14c008c", DequeueCount: "1", InsertionTime: "2020-07-14T09:29:17.000+00:00" 
+[16:29:18 INF] [Function.ProcessQueueMessage2] () Trigger Details: MessageId: "f53b7dad-8c32-43c2-ab84-274ecdbf120f", DequeueCount: "1", InsertionTime: "2020-07-14T09:29:17.000+00:00" 
+[16:29:27 INF] [Function.ProcessQueueMessage2.User] () ProcessQueueMessage Success: {"Type":"string","Data":"string"} 
+[16:29:27 INF] [Function.ProcessQueueMessage.User] () ProcessQueueMessage Success: {"Type":"string","Data":"string"} 
+[16:29:27 INF] [Function.ProcessQueueMessage] () Executed 'Functions.ProcessQueueMessage' (Succeeded, Id=08230ae4-7fa6-4939-b426-e2b9ee5f497d) 
+[16:29:27 INF] [Function.ProcessQueueMessage2] () Executed 'Functions.ProcessQueueMessage2' (Succeeded, Id=77b0d917-16aa-4271-bb72-c01a51d10cf2) 
+[16:29:27 INF] [Host.Results] () null 
+[16:29:27 INF] [Host.Results] () null 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"138e288d-d793-456d-a7eb-e055b89e4165"' found 0 messages in 149 ms. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"e54e1ed1-0b2c-41f1-8f39-805824dec159"' found 0 messages in 149 ms. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 100 ms before polling queue '"webapitest"'. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 100 ms before polling queue '"webapitest2"'. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"babfcbfd-da6a-400e-98d6-6d6ebfd86729"' found 0 messages in 54 ms. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 210.0849 ms before polling queue '"webapitest"'. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"93364061-2492-4930-9fc9-537c28c6567e"' found 0 messages in 68 ms. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 206.7295 ms before polling queue '"webapitest2"'. 
+[16:29:28 INF] [Host.Aggregator] () null 
+[16:29:28 INF] [Host.Aggregator] () null 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"a12dab70-c85a-400b-89af-cf416c27729b"' found 0 messages in 47 ms. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 312.4693 ms before polling queue '"webapitest"'. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"f8c41a5a-d923-4d73-9e7e-e2ff14749a07"' found 0 messages in 46 ms. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 327.5381 ms before polling queue '"webapitest2"'. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"475e506c-a095-44e5-850f-38b6f44b5d7b"' found 0 messages in 35 ms. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 572.685 ms before polling queue '"webapitest"'. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"263c2d8c-e821-4604-addd-21100b43f7dd"' found 0 messages in 41 ms. 
+[16:29:28 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 550.723 ms before polling queue '"webapitest2"'. 
+[16:29:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"00f630eb-997e-4643-9b6a-3a6f660675a1"' found 0 messages in 42 ms. 
+[16:29:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 819.0815 ms before polling queue '"webapitest"'. 
+[16:29:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"00c32969-2cf5-4b47-b9c8-5ea1ae5d49f6"' found 0 messages in 41 ms. 
+[16:29:29 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 813.9861 ms before polling queue '"webapitest2"'. 
+[16:29:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"da340c86-31e2-4aa3-91fb-250a0b928f54"' found 0 messages in 41 ms. 
+[16:29:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 1842.9382 ms before polling queue '"webapitest"'. 
+[16:29:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"503a9bf7-7ab0-41b7-99f9-90d38bbd2807"' found 0 messages in 39 ms. 
+[16:29:30 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 1625.2637 ms before polling queue '"webapitest2"'. 
+[16:29:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"e0339f81-9a91-4ce8-a091-361712b8ed84"' found 0 messages in 52 ms. 
+[16:29:31 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 2000 ms before polling queue '"webapitest2"'. 
+[16:29:32 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"2c3afc2b-2afd-47f2-8e2a-76db3871c06a"' found 0 messages in 51 ms. 
+[16:29:32 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[16:29:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"aa15f151-b0d6-4e8c-a2df-1032c3c33a3f"' found 0 messages in 63 ms. 
+[16:29:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 2000 ms before polling queue '"webapitest2"'. 
+[16:29:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"233e59ba-a342-401f-8498-65569a370bb6"' found 0 messages in 54 ms. 
+[16:29:34 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[16:29:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"24d77f55-5ed4-44e0-9f83-423849fef390"' found 0 messages in 42 ms. 
+[16:29:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 2000 ms before polling queue '"webapitest2"'. 
+[16:29:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"0d66325d-08ff-4c62-9750-7bae1a6b443a"' found 0 messages in 36 ms. 
+[16:29:36 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 
+[16:29:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage2"' on queue '"webapitest2"' with ClientRequestId '"06af65c2-f0b1-44e1-910c-cae416557a78"' found 0 messages in 52 ms. 
+[16:29:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage2"' will wait 2000 ms before polling queue '"webapitest2"'. 
+[16:29:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Poll for function '"ProcessQueueMessage"' on queue '"webapitest"' with ClientRequestId '"5d58b45d-ab65-4542-90ed-666912dfbe7f"' found 0 messages in 67 ms. 
+[16:29:38 DBG] [Microsoft.Azure.WebJobs.Host.Queues.Listeners.QueueListener] () Function '"ProcessQueueMessage"' will wait 2000 ms before polling queue '"webapitest"'. 

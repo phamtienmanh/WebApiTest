@@ -17,6 +17,9 @@ namespace WebApiTest.Infrastructure.Installers
             IMapper mapper = mappingConfig.CreateMapper();
             services.AddSingleton(mapper);
 
+//            IAzureStorageServices azureStorageServices = new AzureStorageServices(configuration);
+//            services.AddSingleton(azureStorageServices);
+
             services.AddScoped<IPostServices, PostServices>();
             services.AddScoped<IAuthServices, AuthServices>();
         }

@@ -1,0 +1,841 @@
+[15:32:31 INF] [] () Starting web host 
+[15:33:01 FTL] [] () Host terminated unexpectedly 
+System.AggregateException: Retry failed after 6 tries. (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.)
+ ---> Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RetryPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipeline.Send(HttpMessage message, CancellationToken cancellationToken)
+   at Azure.Storage.Queues.QueueRestClient.Queue.CreateAsync(ClientDiagnostics clientDiagnostics, HttpPipeline pipeline, Uri resourceUri, String version, Nullable`1 timeout, IDictionary`2 metadata, String requestId, Boolean async, String operationName, CancellationToken cancellationToken)
+   at Azure.Storage.Queues.QueueClient.CreateInternal(IDictionary`2 metadata, Boolean async, CancellationToken cancellationToken, String operationName)
+   at Azure.Storage.Queues.QueueClient.CreateIfNotExistsInternal(IDictionary`2 metadata, Boolean async, CancellationToken cancellationToken)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted[T](Task`1 task)
+   at Azure.Storage.Queues.QueueClient.CreateIfNotExists(IDictionary`2 metadata, CancellationToken cancellationToken)
+   at WebApiTest.Infrastructure.Services.AzureStorageServices..ctor(IConfiguration configuration) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Services\AzureStorageServices.cs:line 22
+   at WebApiTest.Infrastructure.Installers.DIInstaller.InstallServices(IServiceCollection services, IConfiguration configuration) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Installers\DIInstaller.cs:line 20
+   at WebApiTest.Infrastructure.Extensions.InstallerExtension.<>c__DisplayClass0_0.<InstallServiceInAssembly>b__1(IInstaller installer) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Extensions\InstallerExtension.cs:line 16
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at WebApiTest.Infrastructure.Extensions.InstallerExtension.InstallServiceInAssembly(IServiceCollection services, IConfiguration configuration) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Extensions\InstallerExtension.cs:line 16
+   at WebApiTest.Startup.ConfigureServices(IServiceCollection services) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Startup.cs:line 25
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at WebApiTest.Program.Main(String[] args) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Program.cs:line 26
+ ---> (Inner Exception #1) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #2) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #3) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #4) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #5) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+[15:46:13 INF] [] () Starting web host 
+[15:46:45 FTL] [] () Host terminated unexpectedly 
+System.AggregateException: Retry failed after 6 tries. (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.)
+ ---> Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RetryPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipeline.Send(HttpMessage message, CancellationToken cancellationToken)
+   at Azure.Storage.Queues.QueueRestClient.Queue.CreateAsync(ClientDiagnostics clientDiagnostics, HttpPipeline pipeline, Uri resourceUri, String version, Nullable`1 timeout, IDictionary`2 metadata, String requestId, Boolean async, String operationName, CancellationToken cancellationToken)
+   at Azure.Storage.Queues.QueueClient.CreateInternal(IDictionary`2 metadata, Boolean async, CancellationToken cancellationToken, String operationName)
+   at Azure.Storage.Queues.QueueClient.CreateIfNotExistsInternal(IDictionary`2 metadata, Boolean async, CancellationToken cancellationToken)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted[T](Task`1 task)
+   at Azure.Storage.Queues.QueueClient.CreateIfNotExists(IDictionary`2 metadata, CancellationToken cancellationToken)
+   at WebApiTest.Infrastructure.Services.AzureStorageServices..ctor(IConfiguration configuration) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Services\AzureStorageServices.cs:line 22
+   at WebApiTest.Infrastructure.Installers.DIInstaller.InstallServices(IServiceCollection services, IConfiguration configuration) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Installers\DIInstaller.cs:line 20
+   at WebApiTest.Infrastructure.Extensions.InstallerExtension.<>c__DisplayClass0_0.<InstallServiceInAssembly>b__1(IInstaller installer) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Extensions\InstallerExtension.cs:line 16
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at WebApiTest.Infrastructure.Extensions.InstallerExtension.InstallServiceInAssembly(IServiceCollection services, IConfiguration configuration) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Extensions\InstallerExtension.cs:line 16
+   at WebApiTest.Startup.ConfigureServices(IServiceCollection services) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Startup.cs:line 25
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at WebApiTest.Program.Main(String[] args) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Program.cs:line 26
+ ---> (Inner Exception #1) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #2) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #3) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #4) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #5) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+[15:49:56 INF] [] () Starting web host 
+[15:50:34 FTL] [] () Host terminated unexpectedly 
+System.AggregateException: Retry failed after 6 tries. (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.) (No connection could be made because the target machine actively refused it.)
+ ---> Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RetryPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipeline.Send(HttpMessage message, CancellationToken cancellationToken)
+   at Azure.Storage.Queues.QueueRestClient.Queue.CreateAsync(ClientDiagnostics clientDiagnostics, HttpPipeline pipeline, Uri resourceUri, String version, Nullable`1 timeout, IDictionary`2 metadata, String requestId, Boolean async, String operationName, CancellationToken cancellationToken)
+   at Azure.Storage.Queues.QueueClient.CreateInternal(IDictionary`2 metadata, Boolean async, CancellationToken cancellationToken, String operationName)
+   at Azure.Storage.Queues.QueueClient.CreateIfNotExistsInternal(IDictionary`2 metadata, Boolean async, CancellationToken cancellationToken)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted[T](Task`1 task)
+   at Azure.Storage.Queues.QueueClient.CreateIfNotExists(IDictionary`2 metadata, CancellationToken cancellationToken)
+   at WebApiTest.Infrastructure.Services.AzureStorageServices..ctor(IConfiguration configuration) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Services\AzureStorageServices.cs:line 22
+   at WebApiTest.Infrastructure.Installers.DIInstaller.InstallServices(IServiceCollection services, IConfiguration configuration) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Installers\DIInstaller.cs:line 20
+   at WebApiTest.Infrastructure.Extensions.InstallerExtension.<>c__DisplayClass0_0.<InstallServiceInAssembly>b__1(IInstaller installer) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Extensions\InstallerExtension.cs:line 16
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at WebApiTest.Infrastructure.Extensions.InstallerExtension.InstallServiceInAssembly(IServiceCollection services, IConfiguration configuration) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Infrastructure\Extensions\InstallerExtension.cs:line 16
+   at WebApiTest.Startup.ConfigureServices(IServiceCollection services) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Startup.cs:line 25
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at WebApiTest.Program.Main(String[] args) in C:\Users\HELLO\source\repos\WebApiTest\WebApiTest\Program.cs:line 26
+ ---> (Inner Exception #1) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #2) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #3) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #4) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+ ---> (Inner Exception #5) Azure.RequestFailedException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   --- End of inner exception stack trace ---
+   at Azure.Core.Pipeline.HttpClientTransport.ProcessAsync(HttpMessage message)
+   at Azure.Core.Pipeline.HttpClientTransport.Process(HttpMessage message)
+   at Azure.Core.Pipeline.HttpPipelineTransportPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean isAsync)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.RequestActivityPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.ResponseBodyPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.LoggingPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)
+   at Azure.Core.Pipeline.TaskExtensions.EnsureCompleted(ValueTask task)
+   at Azure.Core.Pipeline.LoggingPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelineSynchronousPolicy.Process(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.HttpPipelinePolicy.ProcessNext(HttpMessage message, ReadOnlyMemory`1 pipeline)
+   at Azure.Core.Pipeline.RetryPolicy.ProcessAsync(HttpMessage message, ReadOnlyMemory`1 pipeline, Boolean async)<---
+
+[15:58:07 INF] [] () Starting web host 
+[16:55:51 INF] [] () Starting web host 
+[16:55:54 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[16:55:55 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () FunctionResultAggregatorOptions
+{
+  "BatchSize": 1000,
+  "FlushTimeout": "00:00:30",
+  "IsEnabled": true
+} 
+[16:55:55 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () QueuesOptions
+{
+  "BatchSize": 16,
+  "NewBatchThreshold": 64,
+  "MaxPollingInterval": "00:00:02",
+  "MaxDequeueCount": 5,
+  "VisibilityTimeout": "00:01:00"
+} 
+[16:55:55 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () SingletonOptions
+{
+  "LockPeriod": "00:00:15",
+  "ListenerLockPeriod": "00:00:15",
+  "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+  "LockAcquisitionPollingInterval": "00:00:05",
+  "ListenerLockRecoveryPollingInterval": "00:01:00"
+} 
+[16:55:55 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () BlobsOptions
+{
+  "CentralizedPoisonQueue": false
+} 
+[16:55:55 INF] [Microsoft.Azure.WebJobs.Hosting.JobHostService] () Starting JobHost 
+[16:55:55 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger" responded 301 in 21.4522 ms 
+[16:55:55 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/index.html" responded 200 in 89.5128 ms 
+[16:55:55 INF] [Host.Startup] () Found the following functions:
+WebApiTest.Functions.ProcessQueueMessage
+WebApiTest.Functions.ProcessQueueMessage2
+ 
+[16:55:55 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 50.2683 ms 
+[16:55:55 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 57.1127 ms 
+[16:55:55 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 51.8881 ms 
+[16:55:55 INF] [Host.Startup] () Job host started 
+[16:55:55 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[16:55:55 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "development" 
+[16:55:55 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest" 
+[16:55:55 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[16:55:55 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.7164 ms 
+[16:55:55 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 138.5619 ms 

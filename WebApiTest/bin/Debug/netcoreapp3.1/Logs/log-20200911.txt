@@ -1,0 +1,200 @@
+[07:52:28 INF] [] () Starting web host 
+[07:52:30 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[07:52:30 WRN] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] () Storing keys in a directory '"C:\Users\ContainerUser\AppData\Local\ASP.NET\DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. 
+[07:52:31 INF] [Microsoft.Hosting.Lifetime] () Now listening on: "https://[::]:443" 
+[07:52:31 INF] [Microsoft.Hosting.Lifetime] () Now listening on: "http://[::]:80" 
+[07:52:31 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () FunctionResultAggregatorOptions
+{
+  "BatchSize": 1000,
+  "FlushTimeout": "00:00:30",
+  "IsEnabled": true
+} 
+[07:52:31 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () QueuesOptions
+{
+  "BatchSize": 16,
+  "NewBatchThreshold": 16,
+  "MaxPollingInterval": "00:00:02",
+  "MaxDequeueCount": 5,
+  "VisibilityTimeout": "00:01:00"
+} 
+[07:52:31 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () SingletonOptions
+{
+  "LockPeriod": "00:00:15",
+  "ListenerLockPeriod": "00:00:15",
+  "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+  "LockAcquisitionPollingInterval": "00:00:05",
+  "ListenerLockRecoveryPollingInterval": "00:01:00"
+} 
+[07:52:31 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () BlobsOptions
+{
+  "CentralizedPoisonQueue": false
+} 
+[07:52:31 INF] [Microsoft.Azure.WebJobs.Hosting.JobHostService] () Starting JobHost 
+[07:52:31 INF] [Host.Startup] () Found the following functions:
+WebApiTest.Functions.ProcessQueueMessage
+WebApiTest.Functions.ProcessQueueMessage2
+ 
+[07:52:31 INF] [Host.Startup] () Job host started 
+[07:52:31 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[07:52:31 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "development" 
+[07:52:31 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\app" 
+[07:52:31 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[07:52:59 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger" responded 301 in 33.3488 ms 
+[07:52:59 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/index.html" responded 200 in 85.2033 ms 
+[07:52:59 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 84.9823 ms 
+[07:53:00 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 168.1128 ms 
+[07:53:00 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 242.3542 ms 
+[07:53:00 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 192.1629 ms 
+[07:53:00 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 1.4001 ms 
+[07:56:05 INF] [] () Starting web host 
+[07:56:11 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[07:56:12 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () FunctionResultAggregatorOptions
+{
+  "BatchSize": 1000,
+  "FlushTimeout": "00:00:30",
+  "IsEnabled": true
+} 
+[07:56:12 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () QueuesOptions
+{
+  "BatchSize": 16,
+  "NewBatchThreshold": 64,
+  "MaxPollingInterval": "00:00:02",
+  "MaxDequeueCount": 5,
+  "VisibilityTimeout": "00:01:00"
+} 
+[07:56:12 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () SingletonOptions
+{
+  "LockPeriod": "00:00:15",
+  "ListenerLockPeriod": "00:00:15",
+  "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+  "LockAcquisitionPollingInterval": "00:00:05",
+  "ListenerLockRecoveryPollingInterval": "00:01:00"
+} 
+[07:56:12 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () BlobsOptions
+{
+  "CentralizedPoisonQueue": false
+} 
+[07:56:12 INF] [Microsoft.Azure.WebJobs.Hosting.JobHostService] () Starting JobHost 
+[07:56:12 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger" responded 301 in 16.1157 ms 
+[07:56:12 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/index.html" responded 200 in 97.6011 ms 
+[07:56:12 INF] [Host.Startup] () Found the following functions:
+WebApiTest.Functions.ProcessQueueMessage
+WebApiTest.Functions.ProcessQueueMessage2
+ 
+[07:56:12 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 67.5011 ms 
+[07:56:12 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 67.4933 ms 
+[07:56:12 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 65.7764 ms 
+[07:56:12 INF] [Host.Startup] () Job host started 
+[07:56:12 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[07:56:12 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "development" 
+[07:56:12 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest" 
+[07:56:12 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[07:56:13 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 144.3597 ms 
+[07:56:22 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/" responded 200 in 5894.5679 ms 
+[07:56:25 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/bundle.js" responded 200 in 2136.3177 ms 
+[07:56:25 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/main.chunk.js" responded 200 in 2171.7748 ms 
+[07:56:25 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/0.chunk.js" responded 200 in 2175.3531 ms 
+[07:56:25 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/manifest.json" responded 200 in 7.5407 ms 
+[07:56:25 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/favicon.ico" responded 200 in 17.1911 ms 
+[07:56:25 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/logo192.png" responded 200 in 2.7629 ms 
+[07:56:29 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/sockjs-node" responded 101 in 3914.8810 ms 
+[07:56:49 INF] [] () Starting web host 
+[07:56:51 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[07:56:51 WRN] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] () Storing keys in a directory '"C:\Users\ContainerUser\AppData\Local\ASP.NET\DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. 
+[07:56:51 INF] [Microsoft.Hosting.Lifetime] () Now listening on: "https://[::]:443" 
+[07:56:51 INF] [Microsoft.Hosting.Lifetime] () Now listening on: "http://[::]:80" 
+[07:56:51 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () FunctionResultAggregatorOptions
+{
+  "BatchSize": 1000,
+  "FlushTimeout": "00:00:30",
+  "IsEnabled": true
+} 
+[07:56:51 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () QueuesOptions
+{
+  "BatchSize": 16,
+  "NewBatchThreshold": 16,
+  "MaxPollingInterval": "00:00:02",
+  "MaxDequeueCount": 5,
+  "VisibilityTimeout": "00:01:00"
+} 
+[07:56:51 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () SingletonOptions
+{
+  "LockPeriod": "00:00:15",
+  "ListenerLockPeriod": "00:00:15",
+  "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+  "LockAcquisitionPollingInterval": "00:00:05",
+  "ListenerLockRecoveryPollingInterval": "00:01:00"
+} 
+[07:56:51 INF] [Microsoft.Azure.WebJobs.Hosting.OptionsLoggingService] () BlobsOptions
+{
+  "CentralizedPoisonQueue": false
+} 
+[07:56:51 INF] [Microsoft.Azure.WebJobs.Hosting.JobHostService] () Starting JobHost 
+[07:56:52 INF] [Host.Startup] () Found the following functions:
+WebApiTest.Functions.ProcessQueueMessage
+WebApiTest.Functions.ProcessQueueMessage2
+ 
+[07:56:52 INF] [Host.Startup] () Job host started 
+[07:56:52 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[07:56:52 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "development" 
+[07:56:52 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\app" 
+[07:56:52 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[07:57:19 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/index.html" responded 200 in 52.6246 ms 
+[07:57:20 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 153.0469 ms 
+[07:59:14 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui-standalone-preset.js.map" responded 404 in 109714.5645 ms 
+[07:59:14 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui.css.map" responded 404 in 109710.0030 ms 
+[07:59:14 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui-bundle.js.map" responded 404 in 109715.0041 ms 
+[08:05:18 INF] [] () Starting web host 
+[08:07:27 INF] [] () Starting web host 
+[08:15:26 INF] [] () Starting web host 
+[08:16:00 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[08:16:37 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[08:16:37 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "development" 
+[08:16:39 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\Users\HELLO\source\repos\WebApiTest\WebApiTest" 
+[08:16:39 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[08:16:41 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/index.html" responded 200 in 2125.8252 ms 
+[08:16:43 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 71.0829 ms 
+[08:17:28 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/" responded 304 in 22455.0034 ms 
+[08:17:30 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/0.chunk.js" responded 304 in 2194.2061 ms 
+[08:17:30 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/main.chunk.js" responded 304 in 2220.3283 ms 
+[08:17:30 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/bundle.js" responded 304 in 2236.5018 ms 
+[08:19:13 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/sockjs-node" responded 101 in 72570.5990 ms 
+[08:19:18 INF] [] () Starting web host 
+[08:19:40 INF] [] () Starting web host 
+[08:20:51 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[08:20:53 WRN] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] () Storing keys in a directory '"C:\Users\ContainerUser\AppData\Local\ASP.NET\DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. 
+[08:21:22 INF] [Microsoft.Hosting.Lifetime] () Now listening on: "https://[::]:443" 
+[08:21:22 INF] [Microsoft.Hosting.Lifetime] () Now listening on: "http://[::]:80" 
+[08:21:22 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[08:21:22 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "development" 
+[08:21:22 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\app" 
+[08:21:22 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[08:21:35 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger" responded 301 in 13.2222 ms 
+[08:21:36 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/index.html" responded 200 in 1314.8316 ms 
+[08:21:36 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 33.3354 ms 
+[08:21:36 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 81.8332 ms 
+[08:21:36 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 113.1088 ms 
+[08:21:37 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 1.2181 ms 
+[08:21:37 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 124.1226 ms 
+[08:21:51 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/" responded 200 in 3606.8797 ms 
+[08:21:51 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/bundle.js" responded 200 in 23.4893 ms 
+[08:21:51 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/main.chunk.js" responded 200 in 34.3302 ms 
+[08:21:54 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/0.chunk.js" responded 200 in 2164.5017 ms 
+[08:21:54 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/favicon.ico" responded 200 in 6.4489 ms 
+[08:21:55 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/bundle.js.map" responded 200 in 8.6470 ms 
+[08:21:55 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/manifest.json" responded 200 in 10.2512 ms 
+[08:21:57 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/main.chunk.js.map" responded 200 in 1348.6101 ms 
+[08:21:57 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/logo192.png" responded 200 in 8.0550 ms 
+[08:21:57 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/static/js/0.chunk.js.map" responded 200 in 1391.3245 ms 
+[09:09:58 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/sockjs-node" responded 101 in 2883654.2004 ms 
+[11:12:26 INF] [] () Starting web host 
+[11:12:27 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting starting 
+[11:12:27 WRN] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] () Storing keys in a directory '"C:\Users\ContainerUser\AppData\Local\ASP.NET\DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. 
+[11:12:28 INF] [Microsoft.Hosting.Lifetime] () Now listening on: "https://[::]:443" 
+[11:12:28 INF] [Microsoft.Hosting.Lifetime] () Now listening on: "http://[::]:80" 
+[11:12:28 INF] [Microsoft.Hosting.Lifetime] () Application started. Press Ctrl+C to shut down. 
+[11:12:28 INF] [Microsoft.Hosting.Lifetime] () Hosting environment: "development" 
+[11:12:28 INF] [Microsoft.Hosting.Lifetime] () Content root path: "C:\app" 
+[11:12:28 DBG] [Microsoft.Extensions.Hosting.Internal.Host] () Hosting started 
+[11:12:56 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/index.html" responded 200 in 87.7632 ms 
+[11:12:56 INF] [Serilog.AspNetCore.RequestLoggingMiddleware] () HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 110.2245 ms 

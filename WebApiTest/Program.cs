@@ -23,7 +23,14 @@ namespace WebApiTest
             try
             {
                 Log.Information("Starting web host");
-                var host = CreateHostBuilder(args).Build();
+                var host = CreateHostBuilder(args)
+                    .UseEnvironment("development")
+//                    .ConfigureWebJobs(b =>
+//                    {
+//                        b.AddAzureStorageCoreServices();
+//                        b.AddAzureStorage(options => { options.VisibilityTimeout = TimeSpan.FromMinutes(1); });
+//                    })
+                    .Build();
                 host.Run();
             }
             catch (Exception ex)
